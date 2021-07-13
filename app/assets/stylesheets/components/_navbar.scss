@@ -1,12 +1,70 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+// --> css for v1
+
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   background: white;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }
+
+// .navbar1 {
+//   padding: 16px;
+//   color: white;
+//   background-color: black;
+//   left: 0;
+//   right: 0;
+//   display: flex;
+//   justify-content: space-between;
+//   img {
+//   width: 30px;
+//   height: 30px;
+//   }
+// }
+
+// .nav-font {
+//   font-family: 'Anton', sans-serif;
+//   text-shadow: 1px 1px grey;
+// }
+
+// .nav-middle {
+//   justify-content: space-between;
+// }
+
+// .user-setting {
+//   position: relative;
+// }
+
+
+// --> css for v2
+
+.container-on-nav {
+  background-color: #E5B299;
+  width: 100%;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-brand {
+  font-size: 30px;
+  color: black;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+li {
+  color: #7D5A50;
+}
+
+.btn {
+  background-color: #7D5A50;
+  color: #E5B299;
+  border-color: #FCDEC0;
+}
+
+.btn:hover {
+  background-color: #7D5A50;
+  color: #E5B299;
+  border-color: #FCDEC0;
 }
