@@ -1,0 +1,15 @@
+current directory: /Users/Aga/code/AgneSz/UdemyRecipeBook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+/Users/Aga/.rbenv/versions/2.6.6/bin/ruby -I /Users/Aga/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210713-54648-1r16ijs.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Aga/code/AgneSz/UdemyRecipeBook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/Aga/code/AgneSz/UdemyRecipeBook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/Aga/code/AgneSz/UdemyRecipeBook/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210713-54648-1ywrv8v/bootsnap
