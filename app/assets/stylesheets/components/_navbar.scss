@@ -43,14 +43,19 @@
 
 // --> css for v2
 
+.navbar {
+  display: flex;
+  align-items: centre;
+}
+
 .container-on-nav {
   background-color: #E5B299;
   width: 100%;
 }
 
 .navbar-brand {
-  font-size: 30px;
-  color: black;
+  font-size: 16px;
+  color: #7D5A50;
 }
 
 li {
@@ -58,13 +63,20 @@ li {
 }
 
 .btn {
-  background-color: #7D5A50;
-  color: #E5B299;
-  border-color: #FCDEC0;
+  background-color: #E5B299;
+  color: #7D5A50;
+  border-color: #B4846C;
+  margin: 10px;
 }
 
 .btn:hover {
   background-color: #7D5A50;
   color: #E5B299;
   border-color: #FCDEC0;
+}
+
+.image-login {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
 }

@@ -1,33 +1,13 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "My Recipes", root_path, id: "logo" %>
-  <%#= link_to "Add Recipe", root_path, class: "navbar-brand", id: "logo"  %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <div class="container-on-nav"> -->
+    <a class="navbar-brand" href="#">My Recipes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-  <%#= link_to "", class: "navbar-brand" do %>
-    <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
-    <%# end %>
-
-
-    <!-- search bar in navbar START-->
-<!--     <div > -->
-      <%#= form_tag avengers_path, method: :get, class: "navbar-search" do %>
-      <%#= text_field_tag :query,
-      params[:query],
-      class: "form-control",
-        placeholder: "Search"
-        %>
-        <%# end %>
- <!--      </div> -->
-      <!-- search bar in navbar END -->
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <% if user_signed_in? %>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <% if user_signed_in? %>
         <li class="nav-item active">
           <%= link_to "Home", "#", class: "nav-link" %>
         </li>
@@ -42,11 +22,13 @@
             <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
           </div>
         </li>
-      <% else %>
+        <% else %>
         <li class="nav-item">
           <%= link_to "Login", new_user_session_path, class: "nav-link" %>
         </li>
-      <% end %>
-    </ul>
+        <% end %>
+      </ul>
+    </div>
   </div>
-</div>
+  <!-- </div> -->
+</nav>
