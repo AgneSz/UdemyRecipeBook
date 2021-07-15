@@ -1,5 +1,5 @@
 class AddUserIdToRecipes < ActiveRecord::Migration[6.0]
   def change
-    add_column :recipes, :user_id, :integer
+    add_reference :recipes, :user, null: false, foreign_key: true
   end
 end

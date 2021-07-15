@@ -1,4 +1,24 @@
 class RecipesController < ApplicationController
-  validates :name, presence: true, length: { minimum: 2, maximum: 19 }
-  validates :description, presence: true
+
+  def index
+    @recipes = Recipe.all
+  end
+
+  def show
+  end
+
+  def new
+  end
+
+  def create
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def destroy
+  end
 end
