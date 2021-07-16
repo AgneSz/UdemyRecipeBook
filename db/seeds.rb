@@ -9,10 +9,10 @@
 
 require 'faker'
 # Booking.destroy_all
-Recipe.destroy_all
-User.destroy_all
+# Recipe.destroy_all
+# User.destroy_all
 # puts 'seed the user owner with owner@test.com and password 123456 '
-# user = User.create(email: "owner@test.com", password: "123456")
+user = User.create(email: "thitdseeding@test.com", password: "789101112", username: "Vlad")
 puts 'seeding 10 Recipes...'
 10.times do
   recipe = Recipe.new(

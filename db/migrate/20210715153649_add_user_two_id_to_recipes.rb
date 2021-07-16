@@ -1,4 +1,4 @@
-class AddUserIdToRecipes < ActiveRecord::Migration[6.0]
+class AddUserTwoIdToRecipes < ActiveRecord::Migration[6.0]
   def change
     #add_reference :recipes, :user, null: false, foreign_key: true
   end
