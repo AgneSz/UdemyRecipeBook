@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'another', to: 'pages#another'
+  get 'contacttest', to: 'pages#contacttest'
 
   resources :recipes
 

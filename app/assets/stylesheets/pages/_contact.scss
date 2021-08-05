@@ -124,13 +124,13 @@ section {
   background: pink;
 }
 
-section::before {
-  content: '';
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background: #E5B299;
-}
+// section::before {
+//   content: '';
+//   position: absolute;
+//   width: 50%;
+//   height: 100%;
+//   background: #E5B299;
+// }
 
 section .container {
   position: relative;
@@ -287,4 +287,30 @@ section .container .contact-form .form-box, .input-box span {
   color: purple;
   transition: 0.5s;
   pointer-events: none;
+}
+
+section .container .contact-form .form-box, .input-box input:focus ~ span,
+section .container .contact-form .form-box, .input-box textarea:focus ~ span
+section .container .contact-form .form-box, .input-box input:valid ~ span,
+section .container .contact-form .form-box, .input-box textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: red;
+}
+
+section .container .contact-form .form-box, .input-box input[type="submit"]
+{
+  position: relative;
+  cursor: pointer;
+  background: purple;
+  color: black;
+  border: none;
+  padding: 12px;
+}
+
+section .container .contact-form .form-box, .input-box input[type="submit"]:hover
+{
+  background: pink;
 }

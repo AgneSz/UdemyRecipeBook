@@ -9,4 +9,10 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def another
+  end
+
+  def contacttest
+  end
 end

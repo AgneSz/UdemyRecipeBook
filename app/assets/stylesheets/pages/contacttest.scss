@@ -1,0 +1,79 @@
+.contacttest {
+  position: relative;
+  background-color: green;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 40px;
+  height: 200vh; // view height
+}
+
+.contacttest {
+
+  .container {
+    position: relative;
+    // position: absolute;
+    display: flex; // without flex contactinfor & contact-form are on top of each other
+    min-width: 1200px;
+    min-height: 700px;
+    background-color: pink;
+    padding: 40px;
+  }
+
+  .contactinfo {
+    // position: absolute;
+    position: relative;
+    // with position: absolute and without z-index card hidden behind purple div;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    // z-index: 1;
+    // without z-index div hidden behind contact-form purple;
+    margin: 5px 20px 5px 5px;
+  }
+
+  .info {
+    position: relative;
+    margin: 30px;
+  }
+
+  .sci {
+    position: relative;
+    display: flex;
+    list-style: none;
+  }
+
+  .sci li {
+    flex-display: space-evenly;
+  }
+
+  .contactinfo h2 {
+    color: white;
+    weight: 300;
+  }
+
+  .info li {
+    list-style: none;
+  }
+
+  .contact-form {
+    position: relative;
+    top: 40px;
+    right: 50px;
+    background-color: purple;
+    padding: 10px;
+    // flex-direction: flex-start;
+    margin: 10px 10px 10px 20px;
+    // z-index: 2;
+    // float: right;
+  }
+
+  .form-box {
+    background-color: yellow;
+    position: relative;
+    padding: 10px;
+    width: 900px;
+    // margin: 0 auto; //positions in the centre of the page, auto margins to right and left
+  }
+}
