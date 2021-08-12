@@ -1,0 +1,468 @@
+.card {
+  width: 70%;
+  margin: 10px auto;
+  background-color: beige;
+  border-radius: 4px;
+  border: 1px solid orange;
+  height: 280px;
+}
+
+#profile-round {
+  border-radius: 50%;
+  border: 1px solid orange;
+  width: 64px;
+  height: 64px;
+  margin: 10px auto;
+}
+
+.card h1 {
+  // font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  color: brown;
+  font-weight: bolder;
+}
+
+.card p {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.small-boxes {
+  border: 1px solid brown;
+  width: 120px;
+  height: 40px;
+}
+
+.small-boxes-boss {
+  display: flex;
+  // justify-content: space-around;
+}
+
+.btn-blue {
+  height: 30px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #A03C78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #ED8E7C;
+  text: white;
+  box-shadow: rgb (250, 250, 250);
+}
+
+
+// grid-card------------------------------------------------------------------
+
+.card-master-grid {
+  height: 100vh;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 10px;
+}
+
+.master-grid-one {
+  background-color: #B96B9F;
+  border: 4px solid #E2BEBE;
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+}
+
+.master-grid-two {
+  background-color: #E2BEBE;
+  border: 4px solid #F5F687;
+  grid-column: 3 / -1;
+  grid-row: 1 / 2;
+}
+
+  .grid-two-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .one {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+
+  .two {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+  }
+
+  .three {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+  }
+
+
+.master-grid-three {
+  background-color: #F5F687;
+  border: 4px solid #B96B9F;
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
+}
+
+ .grid-three-container {
+  position: relative;
+  // display: flex;
+  // flex-direction: column;
+  border: 1px solid brown;
+  height: 90%;
+  margin: 10px 5px 20px 5px;
+ }
+
+  .grid-three-container .one {
+    // position: absolute;
+    border: 1px solid brown;
+    width: 70px;
+    margin: 5px auto;
+    background-color: yellow;
+    // margin: 18px auto;
+    height: 50px;
+    // z-index: 1;
+  }
+
+  .grid-three-container .two {
+    border: 1px solid brown;
+    width: 70%;
+    margin: 5px auto;
+    background-color: yellow;
+    height: 50px;
+    // z-index: 2;
+  }
+
+  .grid-three-container .three {
+    border: 1px solid brown;
+    width: 70%;
+    margin: 5px auto;
+    background-color: yellow;
+    margin: 5px auto;
+    height: 50px;
+    z-index: 3;
+  }
+
+.master-grid-four {
+  background-color: #F5F687;
+  border: 4px solid #B96B9F;
+  grid-column: 5 / 7;
+  grid-row: 2 / 4;
+}
+
+.master-grid-five {
+  background-color: #F5F687;
+  border: 4px solid #B96B9F;
+  grid-column: 7 / 9;
+  grid-row: 2 / 4;
+}
+
+.master-grid-six {
+  background-color: #E2BEBE;
+  border: 4px solid #F5F687;
+  grid-column: 9 / -1;
+  grid-row: 2 / -1;
+}
+
+.master-grid-seven {
+  background-color: #B96B9F;
+  border: 4px solid #E2BEBE;
+  grid-column: 1 / 9;
+  grid-row: 4 / 5;
+}
+
+
+// ---------------------------------------------------------------------------
+
+.card-master-box {
+  width: 70%;
+  margin: 10px auto;
+  background-color: #730068;
+  border-radius: 4px;
+  border: 1px solid grey;
+  height: 360px;
+  display: flex;
+}
+
+.card-master-box h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #730068;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.card-master-box p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #434982;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+
+strong {
+  color: #01D28E;
+}
+
+// .master-box {
+//   border: 2px solid blue;
+//   // display: flex;
+// }
+
+.text-box {
+  background-color: #F6F078;
+  border: 2px solid #730068;
+  width: 60%;
+  margin: 5px 5px 5px 5px;
+}
+
+.three-card-box {
+  position: relative;
+  background-color: #01D28E;
+  border: 2px solid #730068;
+  width: 40%;
+  margin: 5px 5px 5px auto;
+  display: flex;
+  padding: 10px auto;
+  // justify-direction: center;
+}
+
+.first-card-box {
+  background-color: #F6F078;
+  border: 2px solid #730068;
+  position: absolute;
+  width: 70%;
+  // margin: 15px auto 60px 15px;
+  height: 60%;
+  // z-index: 1;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  box-shadow: rgba (0,0,0,255);
+}
+
+.second-card-box {
+  background-color: #F6F078;
+  border: 2px solid #730068;
+  position: absolute;
+  width: 70%;
+  // margin: 15px auto 60px 15px;
+  height: 60%;
+  top: 64px;
+  left: 64px;
+  z-index: 2;
+}
+
+.third-card-box {
+  background-color: #F6F078;
+  border: 2px solid #730068;
+  position: relative;
+  width: 60%;
+  // margin: 15px 5px 60px 15px;
+  height: 10%;
+  top: 256px;
+  left: 100px;
+  z-index: 3;
+}
+
+.travel-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto 10px auto;
+  list-style: none;
+}
+
+.travel-list li a {
+  color: #730068;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.travel-list a:hover {
+  color: #01D28E;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+// .second-card-box img {
+//   position: absolute;
+//   width: 40px;
+//   height: 40px;
+// }
+
+.list {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+// -----------------------------------------------------------------------------
+
+
+// grid cards
+
+.container-for-cards {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.2rem;
+  margin: 0.2rem;
+}
+
+.card-one {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-two {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-three {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-four {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-five {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-six {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-seven {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-eight {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+.card-nine {
+  background-color: #9CF196;
+  border: 1px solid #6E2142;
+}
+
+// -----------------------------------------------------------------------------
+
+// grid full
+
+.container-grid {
+  display: grid;
+  height: 100vh;
+  // auto => middle column is responsive; columns => no of columns and their width
+  // 100px auto 100px;
+  // 1fr => all afractions are responsible to device screen size;
+  // 1fr 2fr 1fr => middle column double size;
+  grid-template-columns: repeat(12, 1fr);
+  // rows => no of rows and their height;
+  // 50px 50px => two rows 50px high;
+  grid-template-rows: repeat(3, 50px);
+  grid-gap: 3px;
+}
+
+.grid-one {
+  background-color: yellow;
+  // grid-column-start: 1;
+  // grid-column-end: 4;
+  // or:
+  grid-column: 2 / -1;
+}
+
+.grid-two {
+  background-color: green;
+  grid-row: 1 / 4;
+}
+
+.grid-three {
+  background-color: blue;
+  grid-column: 2 / -1;
+}
+
+.grid-four {
+  background-color: pink;
+  grid-column: 2 / 12;
+}
+
+.grid-five {
+  background-color: grey;
+  grid-column: 12 / -1;
+}
+
+.grid-six {
+  background-color: beige;
+  grid-column: 1 / 13;
+  // or grid-column: 1 / span 3 => width span acroos 3 columns;
+  // or grid-column: 1 / -1 => width span till very last column;
+}
+
+
+// grid full two
+
+.container-grid-two {
+  display: grid;
+  grid-gap: 3px;
+  height: 300%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px auto 40px;
+  grid-template-area:
+  "y y y y y y y y y y y y"
+  "g g b b b b b b b b b b"
+  "p p p p p p p p p p p p";
+}
+
+
+.yellow-one {
+  background-color: yellow;
+  grid-area: y;
+}
+
+.green-two {
+  background-color: green;
+  grid-area: g;
+}
+
+.blue-three {
+  background-color: blue;
+  grid-area: b;
+}
+
+.pink-four {
+  background-color: pink;
+  grid-area: p;
+}
+

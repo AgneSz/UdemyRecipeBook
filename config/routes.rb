@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'another', to: 'pages#another'
   get 'contacttest', to: 'pages#contacttest'
+  get 'profile', to: 'pages#profile'
 
   resources :recipes
 

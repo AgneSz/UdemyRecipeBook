@@ -15,4 +15,7 @@ class PagesController < ApplicationController
 
   def contacttest
   end
+
+  def profile
+  end
 end
