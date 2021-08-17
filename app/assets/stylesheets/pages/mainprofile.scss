@@ -1,0 +1,274 @@
+.mainprofile-contaner {
+  margin: 20px;
+  padding: 20px;
+  height: 360vh;
+}
+
+.mainprofile-info {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  grid-gap: 3px;
+  border-top: 3px solid #E2703A;
+  border-right: 3px solid #E2703A;
+  border-bottom: 3px solid #310B0B;
+  border-left: 3px solid #310B0B;
+  border-radius: 5px;
+  background-color: #F6DCBF;
+  height: 64vh;
+  width: 70%;
+  margin: 10px auto;
+}
+
+  .mainprofile-info-left {
+    grid-row: 7 / 45;
+    grid-column: 2 / 3;
+    background-color: #FFF600;
+  }
+
+  .mainprofile-info-left-two {
+    grid-row: 5 / 43;
+    grid-column: 4 / 5;
+    background-color: #FF005C;
+  }
+
+  .mainprofile-info-left-three {
+    grid-row: 3 / 41;
+    grid-column: 6 / 7;
+    background-color: #54E346;
+  }
+
+  .mainprofile-info-top {
+    grid-row: 6 / 7;
+    grid-column: 3 / 69;
+    background-color: #FFF600;
+  }
+
+  .mainprofile-info-top-two {
+    grid-row: 4 / 5;
+    grid-column: 5 / 67;
+    background-color: #FF005C;
+  }
+
+  .mainprofile-info-top-three {
+    grid-row: 2 / 3;
+    grid-column: 7 / 65;
+    background-color: #54E346;
+  }
+
+  .bio {
+    grid-column: 19 / span 50;
+    grid-row: 9 / span 25;
+  }
+
+.mainprofile-middle-cards {
+  // display: grid;
+  // grid-template-columns: repeat(10, 1fr);
+  // grid-template-rows: repeat(10, 1fr);
+  // grid-gap: 3px;
+  // border: 1px solid grey;
+  // border-radius: 5px;
+  // background-color: white;
+  // // height: 64vh;
+  // width: 70%;
+  // margin: 10px auto;
+}
+
+
+// card one ---------------------------------------------------------------
+
+  .middle-card-one {
+    display: flex;
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 3px 6px 6px 3px rgba (0, 0, 0, 0.2);
+  }
+
+    .middle-card-one-left {
+      display: grid;
+      grid-template-columns: repeat(60, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #E2703A;
+      background-color: #F6DCBF;
+      height: 64vh;
+      width: 60%;
+    }
+
+      .middle-card-one-left-decoration-one {
+        grid-row: 3 / 39;
+        grid-column: 4 / 5;
+        background-color: #F7FD04;
+      }
+
+      .middle-card-one-left-decoration-two {
+        grid-row: 5 / 41;
+        grid-column: 2 / 3;
+        background-color: #FF67E7;
+      }
+
+      .middle-card-one-top-decoration-one {
+        grid-row: 4 / 5;
+        grid-column: 3 / 45;
+        background-color: #FF67E7;
+
+      }
+
+      .middle-card-one-top-decoration-two {
+        grid-row: 2 / 3;
+        grid-column: 5 / 47;
+        background-color: #F7FD04;
+      }
+
+    .middle-card-one-right {
+      display: grid;
+      grid-template-columns: repeat(40, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #310B0B;
+      background-color: #E2703A;
+      height: 64vh;
+      width: 40%;
+    }
+
+    // card one ends ----------------------------------------------------
+
+
+    // card two ---------------------------------------------------------
+
+  .middle-card-two {
+    display: flex;
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 3px 6px 6px 3px rgba (0, 0, 0, 0.2);
+  }
+
+    .middle-card-two-left {
+      display:grid;
+      grid-template-columns: repeat(40, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #E2703A;
+      background-color: #9C3D54;
+      height: 64vh;
+      width: 40%;
+    }
+
+    .middle-card-two-right {
+      display: grid;
+      grid-template-columns: repeat(60, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #9C3D54;
+      background-color: #F6DCBF;
+      height: 64vh;
+      width: 60%;
+    }
+
+      .middle-card-two-right-decoration-one {
+        grid-row: 4 / 39;
+        grid-column: 54 / 53;
+        background-color: #F7FD04;
+      }
+
+      .middle-card-two-right-decoration-two {
+        grid-row: 6 / 41;
+        grid-column: 55 / 56;
+        background-color: #FF67E7;
+      }
+
+      .middle-card-two-top-decoration-one {
+        grid-row: 5 / 6;
+        grid-column: 55 / 10;
+        background-color: #FF67E7;
+      }
+
+      .middle-card-two-top-decoration-two {
+        grid-row: 3 / 4;
+        grid-column: 53 / 8;
+        background-color: #F7FD04;
+      }
+
+    // card two ends ----------------------------------------------------
+
+
+    // card three -------------------------------------------------------
+  .middle-card-three {
+    display: flex;
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 3px 6px 6px 3px rgba (0, 0, 0, 0.2);
+  }
+
+    .middle-card-three-left {
+      display: grid;
+      grid-template-columns: repeat(60, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #310B0B;
+      background-color: #F6DCBF;
+      height: 64vh;
+      width: 60%;
+    }
+
+      .middle-card-three-left-decoration-one {
+        grid-row: 3 / 39;
+        grid-column: 4 / 5;
+        background-color: #F7FD04;
+      }
+
+      .middle-card-three-left-decoration-two {
+        grid-row: 5 / 41;
+        grid-column: 2 / 3;
+        background-color: #FF67E7;
+      }
+
+      .middle-card-three-top-decoration-one {
+        grid-row: 4 / 5;
+        grid-column: 3 / 45;
+        background-color: #FF67E7;
+      }
+
+      .middle-card-three-top-decoration-two {
+        grid-row: 2 / 3;
+        grid-column: 5 / 47;
+        background-color: #F7FD04;
+      }
+
+    .middle-card-three-right {
+      display: grid;
+      grid-template-columns: repeat(40, 1fr);
+      grid-template-rows: repeat(50, 1fr);
+      grid-gap: 3px;
+      border: 3px solid #9C3D54;
+      background-color: #310B0B;
+      height: 64vh;
+      width: 40%;
+    }
+
+    // card three end ---------------------------------------------------
+
+
+
+.mainprofile-footer {
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 3px;
+  background-color: white;
+  height: 64vh;
+  width: 70%;
+  margin: 10px auto;
+}
+
+  .mainprofile-footer ol {
+    display: flex;
+    justify-content: spacer-evenly;
+  }
+
+  .mainprofile-footer li {
+    list-style: none;
+  }

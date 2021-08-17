@@ -18,4 +18,7 @@ class PagesController < ApplicationController
 
   def profile
   end
+
+  def mainprofile
+  end
 end
