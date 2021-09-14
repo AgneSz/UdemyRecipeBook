@@ -21,4 +21,7 @@ class PagesController < ApplicationController
 
   def mainprofile
   end
+
+  def dashboard
+  end
 end

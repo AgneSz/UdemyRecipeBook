@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'contacttest', to: 'pages#contacttest'
   get 'profile', to: 'pages#profile'
   get 'mainprofile', to: 'pages#mainprofile'
+  get 'dashboard', to: 'pages#dashboard'
 
   resources :recipes
 
